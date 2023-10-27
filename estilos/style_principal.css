@@ -1,0 +1,76 @@
+ * {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url('../images/fundo.png');
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+  
+#titulo-logo {
+  color: #30a23b;
+}
+
+#table-fieldset {
+  padding: 15px 0px 0px 25px;
+  width: max-content;
+}
+
+.label{
+  text-align: end;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+#button-enviar {
+  padding: 5px;
+  color: #30a23b;
+  font-size: 20px;
+  border-radius: 18px;
+  margin: 6px 0px 6px 0px;
+}
+
+a {
+  text-decoration: none !important;
+  color: #30a23b !important;
+}
+
+.card {
+  border-radius: 85px;
+  background: whitesmoke;
+  padding: 50px;
+}
+
+.td-label {
+  text-align: end;
+}
+
+.infos-cliente {
+  display: grid;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.button_atender_atendido{
+  padding: 5px;
+  margin-left: 37%;
+}
+
+.button-page {
+  padding: 10px;
+  border-radius: 10px;
+  background: #30a23b;
+  color: whitesmoke;
+  font-size: larger;
+}
+
+#divroot {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr minmax(300px 65vh) 1fr;
+  padding: 30px;
+}
